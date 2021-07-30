@@ -21,10 +21,7 @@
         </v-btn>
       </v-col>
       <v-col cols="12" sm="6" offset-lg="1">
-        <v-img
-          id="dogimg"
-          src="https://stablerandhowlett.com.au/wp-content/uploads/2020/07/mackay-puppy-preschool-151039766.png"
-        ></v-img>
+        <v-img id="dogimg" :src="require('@/assets/homepage-dog.png')"></v-img>
       </v-col>
     </v-row>
     <Header
@@ -242,7 +239,7 @@ export default {
 }
 
 #dogimg {
-  width: 650px;
+  width: 800px;
 }
 
 #availabledogs {
