@@ -65,6 +65,22 @@
           </v-list>
         </v-menu>
       </template>
+      <v-btn vnuxt text exact color="accent" href="https://google.com">
+        <v-img
+          src="https://dwer.wa.gov.au/sites/default/files/Container_for_change_logo_0.png"
+          alt="Containers For Change logo"
+          max-height="3rem"
+          width="7.5rem"
+        />
+      </v-btn>
+      <v-btn vnuxt text exact color="accent" href="https://google.com">
+        <v-img
+          src="https://logos-world.net/wp-content/uploads/2020/04/PayPal-Symbol.png"
+          alt="Paypal logo"
+          max-height="3rem"
+          width="3rem"
+        />
+      </v-btn>
     </v-toolbar-items>
     <v-app-bar-nav-icon v-else color="accent" aria-label="open menu" />
   </v-app-bar>
